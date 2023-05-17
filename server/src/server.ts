@@ -12,8 +12,8 @@ app.get('/users', async (req, res) => {
 
 app
   .listen({
-    port: 3000,
+    port: 3333,
   })
   .then(() => {
-    console.log('🚀 HTTP server running on http://localhost:3000')
+    console.log('🚀 HTTP server running on http://localhost:3333')
   })
